@@ -1,0 +1,397 @@
+<?xml version="1.0"?>
+<!DOCTYPE student SYSTEM "student.dtd">
+<!-- newstudent.xml - a document that lists the checklist -->
+<student>
+    <name>
+        <first>Joey</first>
+        <last>Brown</last>
+    </name>
+    <studentid>7110007</studentid>
+    <gpa>0.00</gpa>
+    <completed>20</completed>
+    <inprogress>0</inprogress>
+    <courses>
+        <subject>
+            <subname>CSC Freshman</subname>
+            <course>
+                <name>CSC 110</name>
+                <credits>1</credits>
+                <grade>A</grade>
+                <override>no</override>
+                <elective>no</elective>
+                <lab>no</lab>
+            </course>
+            <course>
+                <name>CSC 150/L</name>
+                <credits>3</credits>
+                <grade>D</grade>
+                <override>no</override>
+                <elective>no</elective>
+                <lab>no</lab>
+            </course>
+            <course>
+                <name>CSC 250</name>
+                <credits>4</credits>
+                <grade>inprogress</grade>
+                <override>no</override>
+                <elective>no</elective>
+                <lab>no</lab>
+            </course>
+            <course>
+                <name>CSC 251</name>
+                <credits>4</credits>
+                <grade/>
+                <override>no</override>
+                <elective>no</elective>
+                <lab>no</lab>
+            </course>
+        </subject>
+        <subject>
+            <subname>CSC Sophomore</subname>
+            <course>
+                <name>CSC 300</name>
+                <credits>3</credits>
+                <grade/>
+                <override>no</override>
+                <elective>no</elective>
+                <lab>no</lab>
+            </course>
+            <course>
+                <name>CSC 314</name>
+                <credits>3</credits>
+                <grade/>
+                <override>no</override>
+                <elective>no</elective>
+                <lab>no</lab>
+            </course>
+        </subject>
+        <subject>
+            <subname>CSC Junior</subname>
+            <course>
+                <name>CSC 317</name>
+                <credits>3</credits>
+                <grade/>
+                <override>no</override>
+                <elective>no</elective>
+                <lab>no</lab>
+            </course>
+            <course>
+                <name>CSC 372</name>
+                <credits>3</credits>
+                <grade/>
+                <override>no</override>
+                <elective>no</elective>
+                <lab>no</lab>
+            </course>
+            <course>
+                <name>CSC 461</name>
+                <credits>4</credits>
+                <grade/>
+                <override>no</override>
+                <elective>no</elective>
+                <lab>no</lab>
+            </course>
+            <course>
+                <name>CSC 468</name>
+                <credits>3</credits>
+                <grade/>
+                <override>no</override>
+                <elective>no</elective>
+                <lab>no</lab>
+            </course>
+            <course>
+                <name>CSC 470</name>
+                <credits>3</credits>
+                <grade/>
+                <override>no</override>
+                <elective>no</elective>
+                <lab>no</lab>
+            </course>
+            <course>
+                <name>CSC 484</name>
+                <credits>3</credits>
+                <grade/>
+                <override>no</override>
+                <elective>no</elective>
+                <lab>no</lab>
+            </course>
+        </subject>
+        <subject>
+            <subname>CSC Senior</subname>
+            <course>
+                <name>CSC 464</name>
+                <credits>2</credits>
+                <grade/>
+                <override>no</override>
+                <elective>no</elective>
+                <lab>no</lab>
+            </course>
+            <course>
+                <name>CSC 465</name>
+                <credits>2</credits>
+                <grade/>
+                <override>no</override>
+                <elective>no</elective>
+                <lab>no</lab>
+            </course>
+            <course>
+                <name>CSC 456</name>
+                <credits>4</credits>
+                <grade/>
+                <override>no</override>
+                <elective>no</elective>
+                <lab>no</lab>
+            </course>
+        </subject>
+        <subject>
+            <subname>CSC Electives</subname>
+            <course>
+                <name>CSC Elective</name>
+                <credits>3</credits>
+                <grade/>
+                <override>no</override>
+                <elective>yes</elective>
+                <lab>no</lab>
+            </course>
+            <course>
+                <name>CSC Elective</name>
+                <credits>3</credits>
+                <grade/>
+                <override>no</override>
+                <elective>yes</elective>
+                <lab>no</lab>
+            </course>
+            <course>
+                <name>CSC Elective</name>
+                <credits>3</credits>
+                <grade/>
+                <override>no</override>
+                <elective>yes</elective>
+                <lab>no</lab>
+            </course>
+            <course>
+                <name>CSC Elective</name>
+                <credits>3</credits>
+                <grade/>
+                <override>no</override>
+                <elective>yes</elective>
+                <lab>no</lab>
+            </course>
+        </subject>
+        <subject>
+            <subname>Math</subname>
+            <course>
+                <name>MATH 123</name>
+                <credits>4</credits>
+                <grade/>
+                <override>no</override>
+                <elective>no</elective>
+                <lab>no</lab>
+            </course>
+            <course>
+                <name>MATH 125</name>
+                <credits>4</credits>
+                <grade/>
+                <override>no</override>
+                <elective>no</elective>
+                <lab>no</lab>
+            </course>
+            <course>
+                <name>MATH 225</name>
+                <credits>4</credits>
+                <grade/>
+                <override>no</override>
+                <elective>no</elective>
+                <lab>no</lab>
+            </course>
+            <course>
+                <name>MATH 315</name>
+                <credits>3</credits>
+                <grade/>
+                <override>no</override>
+                <elective>no</elective>
+                <lab>no</lab>
+            </course>
+            <course>
+                <name>MATH 381</name>
+                <credits>3</credits>
+                <grade/>
+                <override>no</override>
+                <elective>no</elective>
+                <lab>no</lab>
+            </course>
+            <course>
+                <name>MATH Elective</name>
+                <credits>3</credits>
+                <grade/>
+                <override>no</override>
+                <elective>yes</elective>
+                <lab>no</lab>
+            </course>
+        </subject>
+        <subject>
+            <subname>Science</subname>
+            <course>
+                <name>PHYS 211</name>
+                <credits>3</credits>
+                <grade/>
+                <override>no</override>
+                <elective>no</elective>
+                <lab>no</lab>
+            </course>
+            <course>
+                <name>Science</name>
+                <credits>3</credits>
+                <grade/>
+                <override>no</override>
+                <elective>yes</elective>
+                <lab>no</lab>
+            </course>
+            <course>
+                <name>Science</name>
+                <credits>3</credits>
+                <grade/>
+                <override>no</override>
+                <elective>yes</elective>
+                <lab>no</lab>
+            </course>
+            <course>
+                <name>Science Lab</name>
+                <credits>1</credits>
+                <grade/>
+                <override>no</override>
+                <elective>yes</elective>
+                <lab>yes</lab>
+            </course>
+            <course>
+                <name>Science Lab</name>
+                <credits>1</credits>
+                <grade/>
+                <override>no</override>
+                <elective>yes</elective>
+                <lab>yes</lab>
+            </course>
+        </subject>
+        <subject>
+            <subname>Gen Ed</subname>
+            <course>
+                <name>Social Science</name>
+                <credits>3</credits>
+                <grade/>
+                <override>no</override>
+                <elective>yes</elective>
+                <lab>no</lab>
+            </course>
+            <course>
+                <name>Social Science</name>
+                <credits>3</credits>
+                <grade/>
+                <override>no</override>
+                <elective>yes</elective>
+                <lab>no</lab>
+            </course>
+            <course>
+                <name>Arts/Humanities</name>
+                <credits>3</credits>
+                <grade/>
+                <override>no</override>
+                <elective>yes</elective>
+                <lab>no</lab>
+            </course>
+            <course>
+                <name>Arts/Humanities</name>
+                <credits>3</credits>
+                <grade/>
+                <override>no</override>
+                <elective>yes</elective>
+                <lab>no</lab>
+            </course>
+            <course>
+                <name>SS/Arts/Hum</name>
+                <credits>3</credits>
+                <grade/>
+                <override>no</override>
+                <elective>yes</elective>
+                <lab>no</lab>
+            </course>
+        </subject>
+        <subject>
+            <subname>English</subname>
+            <course>
+                <name>ENGL 101</name>
+                <credits>3</credits>
+                <grade/>
+                <override>no</override>
+                <elective>no</elective>
+                <lab>no</lab>
+            </course>
+            <course>
+                <name>ENGL 279</name>
+                <credits>3</credits>
+                <grade/>
+                <override>no</override>
+                <elective>no</elective>
+                <lab>no</lab>
+            </course>
+            <course>
+                <name>ENGL 289</name>
+                <credits>3</credits>
+                <grade/>
+                <override>no</override>
+                <elective>no</elective>
+                <lab>no</lab>
+            </course>
+        </subject>
+        <subject>
+            <subname>Free Electives</subname>
+            <course>
+                <name>Free Elective</name>
+                <credits>1</credits>
+                <grade/>
+                <override>no</override>
+                <elective>yes</elective>
+                <lab>no</lab>
+            </course>
+            <course>
+                <name>Free Elective</name>
+                <credits>1</credits>
+                <grade/>
+                <override>no</override>
+                <elective>yes</elective>
+                <lab>no</lab>
+            </course>
+            <course>
+                <name>Free Elective</name>
+                <credits>1</credits>
+                <grade/>
+                <override>no</override>
+                <elective>yes</elective>
+                <lab>no</lab>
+            </course>
+            <course>
+                <name>Free Elective</name>
+                <credits>1</credits>
+                <grade/>
+                <override>no</override>
+                <elective>yes</elective>
+                <lab>no</lab>
+            </course>
+            <course>
+                <name>Free Elective</name>
+                <credits>1</credits>
+                <grade/>
+                <override>no</override>
+                <elective>yes</elective>
+                <lab>no</lab>
+            </course>
+            <course>
+                <name>Free Elective</name>
+                <credits>1</credits>
+                <grade/>
+                <override>no</override>
+                <elective>yes</elective>
+                <lab>no</lab>
+            </course>
+        </subject>
+    </courses>
+</student>

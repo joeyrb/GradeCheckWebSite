@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up</title>
+	<link rel="stylesheet" href="loginCSS.css">
+	<meta http-equiv="Cache-control" content="no-store">
+</head>
+
+<body>
+	<form action="signup.php" method="post">
+		<fieldset>
+		<legend>Sign Up</legend>
+		
+		First Name:<br>
+		<input type="text" placeholder="Enter First Name" name="firstname" required><br>
+		
+		Last Name:<br>
+		<input type="text" placeholder="Enter Last Name" name="lastname" required><br>
+		
+		Student ID:<br>
+		<input type="text" placeholder="Enter StudentID" name="studentid" pattern="[\d]{7}" title="Please use your 7 digit StudentID" required><br>
+		
+		Password:<br>
+		<input type="password" placeholder="Enter Password" name="pass" required><br>
+		
+		<!-- Submit button-->
+		<button type="submit">Submit</button>
+		<br>
+		<!-- Cancel button-->
+		<button type="button" onclick="location.href= 'CS_checklist.html';">Cancel</button>
+		<br>
+		</fieldset>
+	</form>
+</body>
+</html>

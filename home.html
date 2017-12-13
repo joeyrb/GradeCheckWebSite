@@ -1,0 +1,157 @@
+<!-- 
+  Author: Joey Brown, Peter Yamaguchi
+  Class: CSC468, GUI
+  Desription: home page for student checklist
+ -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Graduation Progress</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body {
+      color: #333333;
+    }
+
+    button {
+      background-color: #EEEDEB;
+    }
+
+    #topBar, #hamburger {
+      background-color: #011C4F;
+      color: #C1A868;
+    }
+
+    #mySidebar {
+      background-color: #EEEDEB;
+      color: #011C4F;
+    }
+    
+    #myProgress {
+      width: 100%;
+      background-color: #EEEDEB;
+    }
+    
+    #myProgBar {
+      width: 10%;
+      height: 30px;
+      background-color: #4CAF50;
+      text-align: center; /* To center it horizontally (if you want) */
+      line-height: 30px; /* To center it vertically */
+      color: white; 
+    }
+
+    /*button.accordion {
+      background-color: #EEEDEB;
+      color: #011C4F;
+      transition: 0.4s;
+    }*/
+
+    button.card_header, footer.card_footer {
+      background-color: #011C4F;
+      color: #C1A868;
+      cursor: pointer;
+      transition: 0.4s;
+    }
+
+    div.selected{
+      background-color: #EEEDEB;
+      color: #C1A868;
+    }
+
+    button.card_header:after {
+      content: '\25BE';
+      color: #C1A868;
+      font-weight: bold;
+      float: right;
+      margin-left: 5px;
+    }
+
+    /*button.accordion.content {
+      overflow: hidden;
+      transition: max-height 0.5s ease-out;
+    }*/
+  </style>
+  <meta http-equiv="Cache-control" content="no-store">
+</head>
+<body onload="initHome();">
+
+<!-- Sidebar -->
+<div class="w3-sidebar w3-bar-block w3-card-2 w3-animate-left" style="display:none" id="mySidebar">
+  
+  <button class="w3-button w3-large w3-block"
+  onclick="w3_close()" style="text-align: left">&#10096; Close</button>
+  
+  <a href="#" class="w3-bar-item w3-button">Completed Credits: <i id="doc_completed"></i></a>
+  <a href="#" class="w3-bar-item w3-button">In progress: <i id="doc_inprogress"></i></a>
+  <a href="#" class="w3-bar-item w3-button">GPA: <i id="doc_GPA"></i></a>
+  
+  
+  <a class="w3-bar-item w3-button">Progress: </a>
+  <div class="w3-bar-item w3-button" id="myProgress" onclick="progressBarFunc()">
+    <div id="myProgBar"></div>
+  </div>
+  <a href="#" class="w3-bar-item w3-button" onclick="saveGradeInfo()">Click Me! To Submit Grades</i></a>
+    <!-- <br>
+  <button class="w3-button" onclick="move()">Click Me</button> 
+  <br> -->
+
+</div>
+
+
+<!-- Main -->
+<!-- used to separate the sidebar from the body of the web page -->
+<div id="main">
+
+
+<!-- Top Nav Bar -->
+<div class="w3-bar w3-xlarge w3-center" style="background-color: #011C4F; color: #C1A868;">
+  <button class="w3-bar-item w3-button" id="hamburger" onclick="w3_open();">&#9776;</button>
+  <a href="#" class="w3-bar-item w3-button w3-right">User: <i id="doc_User" class="w3-large"></i></a>
+
+  
+  <a href="./flowchart.html" class="w3-bar-item w3-button w3-right">Flow Chart</a>
+  <a href="./recomend.php" class="w3-bar-item w3-button w3-right">Recommended Courses</a>
+  <a href="./home.html" class="w3-bar-item w3-button w3-right">Home</a>
+</div>
+
+
+<!-- First text of body -->
+<h2 style="text-align: center;">Welcome, <span><a id="doc_UName"></a></span>!</h2>
+<p style="text-align: center;">Update your information from the classes below:</p>
+<div align="center">
+<button href="#" class="w3-button w3-light-green" onclick="saveGradeInfo()">Submit Grades</button>
+</div>
+
+<!-- Class Content Container -->
+<div class="w3-container" style="text-align:center;">
+  <div id="cscCard" class="courses"></div>
+  <br><br>
+  <div id="mathCard" class="courses"></div>
+  <br><br>
+  <div id="physCard" class="courses"></div>
+  <br><br>
+  <div id="englCard" class="courses"></div>
+  <br><br>
+  <div id="sciCard" class="courses"></div>
+  <br><br>
+  <div id="genedCard" class="courses"></div>
+  <br><br>
+  <div id="freeCard" class="courses"></div>
+</div>
+
+</div>
+
+<!-- <button onclick="updateStudentInfo('GPA')">Parse</button> -->
+
+<!-- Control Functions -->
+<script src="script.js"></script>
+<script src="initHome.js"></script>
+<script src="studentInfo.js"></script>
+<script src="cookieControl.js"></script>
+
+</body>
+</html>
+

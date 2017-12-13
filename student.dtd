@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding "utf-8" ?>
+
+<!ELEMENT student (name+,courses+,studentid)>
+<!ELEMENT name (fisrt,last)>
+<!ELEMENT courses (subject+)>
+<!ELEMENT subject (subname,course+)>
+<!ELEMENT course (prefix,number,credits,grade,status,elective,lab)>
+<!ELEMENT first (#PCDATA)>
+<!ELEMENT last (#PCDATA)>
+<!ELEMENT prefix (#PCDATA)>
+<!ELEMENT number (#PCDATA)>
+<!ELEMENT credits (#PCDATA)>
+<!ELEMENT grade (#PCDATA)>
+<!ELEMENT status (#PCDATA)>
+<!ELEMENT studentid (#PCDATA)>
+<!ELEMENT elective (#PCDATA)>
+<!ELEMENT lab (#PCDATA)>
+<!ELEMENT subname (#PCDATA)>

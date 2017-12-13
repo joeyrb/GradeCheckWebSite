@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+
+<flowchart>
+		<semester>
+			<number>1</number>
+			<course>CSC 110</course>
+			<course>CSC 150/L</course>
+			<course>MATH 123</course>
+			<course>ENGL 101</course>
+			<course>HUM/SS</course>
+		</semester>
+		<semester>
+			<number>2</number>
+			<course>CSC 250</course>
+			<course>CSC 251</course>
+			<course>MATH 125</course>
+			<course>HUM/SS</course>
+		</semester>
+		<semester>
+			<number>3</number>
+			<course>CSC 300</course>
+			<course>CSC 314</course>
+			<course>MATH 225</course>
+			<course>HUM/SS</course>
+		</semester>
+		<semester>
+			<number>4</number>
+			<course>CSC 484</course>
+			<course>Science</course>
+			<course>MATH 315</course>
+			<course>ENGL 279</course>
+			<course>HUM/SS</course>
+		</semester>
+		<semester>
+			<number>5</number>
+			<course>Science</course>
+			<course>PHYS 211</course>
+			<course>CSC 372</course>
+			<course>CSC 317</course>
+			<course>ENGL 289</course>
+		</semester>
+		<semester>
+			<number>6</number>
+			<course>CSC Elective</course>
+			<course>CSC Elective</course>
+			<course>CSC Elective</course>
+			<course>CSC 456</course>
+			<course>CSC 470</course>
+		</semester>
+		<semester>
+			<number>7</number>
+			<course>CSC 461</course>
+			<course>MATH 381</course>
+			<course>CSC Elective</course>
+			<course>CSC 464</course>
+			<course>HUM/SS</course>
+		</semester>
+		<semester>
+			<number>8</number>
+			<course>CSC 468</course>
+			<course>MATH Elective</course>
+			<course>CSC Elective</course>
+			<course>CSC 465</course>
+			<course>CSC Elective</course>
+		</semester>
+</flowchart>

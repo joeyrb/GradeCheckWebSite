@@ -1,0 +1,43 @@
+<!-- Created following w3schools tutorial -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Log In</title>
+	<link rel="stylesheet" href="loginCSS.css">
+	<meta http-equiv="Cache-control" content="no-store">
+</head>
+
+<body>
+
+<h2 style="text-align:center;">CS Major Course Advisor</h2>
+
+<form method="post" action="action_page.php">
+  
+  <div class="imgcontainer">
+    <img src="MLogo_Blue.png" alt="Mines Logo" class="avatar">
+  </div>
+
+  <div class="container">
+    <label><b>StudentID</b></label>
+    <input type="text" placeholder="Enter StudentID" name="uname" pattern="[\d]{7}" title="Please use your 7 digit StudentID" required>
+  </div>
+
+  <div class="container">
+    <label><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+  </div>
+  
+    
+  <div class="container"> 
+	<button type="submit" id="loginButton">Login</button>
+  </div>
+  <div class="container"> 
+    <button type="button" onclick="location.href= 'signup.html';" id="signButton" formnovalidate>Sign Up</button>
+  </div>
+  <br/>
+</form>
+
+</body>
+</html>

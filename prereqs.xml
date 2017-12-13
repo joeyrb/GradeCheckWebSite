@@ -1,0 +1,428 @@
+<?xml version="1.0"?>
+
+<prereqs>
+	<csc>
+		<course>
+			<name>CSC 150/L</name>
+			<prereq></prereq>
+			<postreq>
+				<class>CSC 250</class>
+				<class>CSC 251</class>
+			</postreq>
+			<coreq>
+				<class>MATH 123</class>
+			</coreq>
+		</course>
+		<course>
+			<name>CSC 111</name>
+			<prereq></prereq>
+			<postreq>
+			</postreq>
+			<coreq></coreq>
+		</course>
+		<course>
+			<name>CSC 250</name>
+			<prereq>
+				<class>CSC 150/L</class>
+			</prereq>
+			<postreq>
+				<class>CSC 300</class>
+				<class>CSC 314</class>
+			</postreq>
+			<coreq></coreq>
+		</course>
+		<course>
+			<name>CSC 251</name>
+			<prereq>
+				<class>CSC 150/L</class>
+				<class>MATH 123</class>
+			</prereq>
+			<postreq>
+				<class>CSC 300</class>
+			</postreq>
+			<coreq></coreq>
+		</course>
+		<course>
+			<name>CSC 300</name>
+			<prereq>
+				<class>CSC 250</class>
+				<class>CSC 251</class>
+			</prereq>
+			<postreq>
+				<class>CSC 372</class>
+				<class>CSC 391</class>
+				<class>CSC 392</class>
+				<class>CSC 410</class>
+				<class>CSC 412</class>
+				<class>CSC 414</class>
+				<class>CSC 415</class>
+				<class>CSC 416</class>
+				<class>CSC 426</class>
+				<class>CSC 433</class>
+				<class>CSC 441</class>
+				<class>CSC 442</class>
+				<class>CSC 447</class>
+				<class>CSC 448</class>
+				<class>CSC 449</class>
+				<class>CSC 456</class>
+				<class>CSC 461</class>
+				<class>CSC 484</class>
+			</postreq>
+			<coreq></coreq>
+		</course>
+		<course>
+			<name>CSC 314</name>
+			<prereq>
+				<class>CSC 250</class>
+			</prereq>
+			<postreq>
+				<class>CSC 317</class>
+			</postreq>
+			<coreq></coreq>
+		</course>
+		<course>
+			<name>CSC 317</name>
+			<prereq>
+				<class>CSC 251</class>
+				<class>CSC 314</class>
+			</prereq>
+			<postreq>
+				<class>CSC 456</class>
+			</postreq>
+			<coreq></coreq>
+		</course>
+		<course>
+			<name>CSC 372</name>
+			<prereq>
+				<class>CSC 300</class>
+				<class>MATH 125</class>
+			</prereq>
+			<postreq>
+				<class>CSC 440</class>
+			</postreq>
+			<coreq></coreq>
+		</course>
+		<course>
+			<name>CSC 391</name>
+			<prereq>
+				<class>permission of instructor</class>
+			</prereq>
+			<postreq>
+			</postreq>
+			<coreq></coreq>
+		</course>
+		<course>
+			<name>CSC 392</name>
+			<prereq></prereq>
+			<postreq></postreq>
+			<coreq></coreq>
+		</course>
+		<course>
+			<name>CSC 410</name>
+			<prereq><class>CSC 300</class></prereq>
+			<postreq></postreq>
+			<coreq></coreq>
+		</course>
+		<course>
+			<name>CSC 412</name>
+			<prereq>
+				<class>MATH 413</class>
+				<class>CSC 250</class>
+			</prereq>
+			<postreq></postreq>
+			<coreq></coreq>
+		</course>
+		<course>
+			<name>CSC 414</name>
+			<prereq>
+				<class>CSC 300</class>
+				<class>EE 313</class>
+			</prereq>
+			<postreq></postreq>
+			<coreq></coreq>
+		</course>
+		<course>
+			<name>CSC 415</name>
+			<prereq>
+				<class>CSC 300</class>
+			</prereq>
+			<postreq></postreq>
+			<coreq></coreq>
+		</course>
+		<course>
+			<name>CSC 416</name>
+			<prereq>
+				<class>CSC 300</class>
+			</prereq>
+			<postreq></postreq>
+			<coreq></coreq>
+		</course>
+		<course>
+			<name>CSC 426</name>
+			<prereq>
+				<class>CSC 300</class>
+			</prereq>
+			<postreq></postreq>
+			<coreq></coreq>
+		</course>
+		<course>
+			<name>CSC 433</name>
+			<prereq>
+				<class>CSC 300</class>
+				<class>MATH 225</class>
+			</prereq>
+			<postreq></postreq>
+			<coreq></coreq>
+		</course>
+		<course>
+			<name>CSC 440</name>
+			<prereq>
+				<class>CSC 317</class>
+				<class>permission of instructor</class>
+			</prereq>
+			<postreq></postreq>
+			<coreq></coreq>
+		</course>
+		<course>
+			<name>CSC 442</name>
+			<prereq>
+				<class>CSC 300</class>
+				<class>MATH 125</class>
+			</prereq>
+			<postreq></postreq>
+			<coreq></coreq>
+		</course>
+		<course>
+			<name>CSC 445</name>
+			<prereq>
+				<class>CSC 251</class>
+			</prereq>
+			<postreq></postreq>
+			<coreq></coreq>
+		</course>
+		<course>
+			<name>CSC 447</name>
+			<prereq>
+				<class>CSC 300</class>
+			</prereq>
+			<postreq></postreq>
+			<coreq></coreq>
+		</course>
+		<course>
+			<name>CSC 448</name>
+			<prereq>
+				<class>CSC 300</class>
+			</prereq>
+			<postreq></postreq>
+			<coreq></coreq>
+		</course>
+		<course>
+			<name>CSC 449</name>
+			<prereq>
+				<class>CSC 300</class>
+				<class>MATH 225</class>
+			</prereq>
+			<postreq></postreq>
+			<coreq></coreq>
+		</course>
+		<course>
+			<name>CSC 442</name>
+			<prereq>
+				<class>CSC 251</class>
+				<class>MATH 381</class>
+			</prereq>
+			<postreq></postreq>
+			<coreq></coreq>
+		</course>
+		<course>
+			<name>CSC 454</name>
+			<prereq>
+				<class>CSC 300</class>
+				<class>MATH 125</class>
+			</prereq>
+			<postreq></postreq>
+			<coreq></coreq>
+		</course>
+		<course>
+			<name>CSC 456</name>
+			<prereq>
+				<class>CSC 300</class>
+				<class>CSC 317</class>
+			</prereq>
+			<postreq></postreq>
+			<coreq></coreq>
+		</course>
+		<course>
+			<name>CSC 461</name>
+			<prereq>
+				<class>CSC 300</class>
+			</prereq>
+			<postreq>
+				<class>CSC 468</class>
+			</postreq>
+			<coreq></coreq>
+		</course>
+		<course>
+			<name>CSC 463</name>
+			<prereq>
+				<class>CSC 250</class>
+			</prereq>
+			<postreq></postreq>
+			<coreq></coreq>
+		</course>
+		<course>
+			<name>CSC 464</name>
+			<prereq>
+				<class>CSC 470</class>
+				<class>CSC 484</class>
+			</prereq>
+			<postreq>
+				<class>CSC 465</class>
+			</postreq>
+			<coreq></coreq>
+		</course>
+		<course>
+			<name>CSC 465</name>
+			<prereq>
+				<class>CSC 464</class>
+			</prereq>
+			<postreq></postreq>
+			<coreq></coreq>
+		</course>
+		<course>
+			<name>CSC 468</name>
+			<prereq>
+				<class>CSC 461</class>
+			</prereq>
+			<postreq>
+				<class>CSC 476</class>
+			</postreq>
+			<coreq></coreq>
+		</course>
+		<course>
+			<name>CSC 470</name>
+			<prereq>
+				<class>CSC 484</class>
+			</prereq>
+			<postreq>
+				<class>CSC 464</class>
+			</postreq>
+			<coreq></coreq>
+		</course>
+		<course>
+			<name>CSC 476</name>
+			<prereq>
+				<class>CSC 468</class>
+			</prereq>
+			<postreq></postreq>
+			<coreq></coreq>
+		</course>
+		<course>
+			<name>CSC 484</name>
+			<prereq>
+				<class>CSC 300</class>
+			</prereq>
+			<postreq><class>CSC 470</class></postreq>
+			<coreq></coreq>
+		</course>
+		<course>
+			<name>CSC 491</name>
+			<prereq>
+				<class>permission of instructor</class>
+			</prereq>
+			<postreq></postreq>
+			<coreq></coreq>
+		</course>
+		<course>
+			<name>CSC 492</name>
+			<prereq>
+			</prereq>
+			<postreq></postreq>
+			<coreq></coreq>
+		</course>
+		<course>
+			<name>CSC 498</name>
+			<prereq>
+				<class>permission of instructor</class>
+			</prereq>
+			<postreq></postreq>
+			<coreq></coreq>
+		</course>
+	</csc>
+	<math>
+		<course>
+			<name>MATH 123</name>
+			<prereq>
+			</prereq>
+			<postreq><class>MATH 125</class></postreq>
+			<coreq></coreq>
+		</course>
+		<course>
+			<name>MATH 125</name>
+			<prereq>
+				<class>MATH 123</class>
+			</prereq>
+			<postreq>
+				<class>MATH 225</class>
+			</postreq>
+			<coreq></coreq>
+		</course>
+		<course>
+			<name>MATH 225</name>
+			<prereq>
+				<class>MATH 125</class>
+			</prereq>
+			<postreq>
+				<class>MATH 315</class>
+			</postreq>
+			<coreq></coreq>
+		</course>
+		<course>
+			<name>MATH 315</name>
+			<prereq>
+				<class>MATH 123</class>
+			</prereq>
+			<postreq>
+				<class>MATH 225</class>
+			</postreq>
+			<coreq></coreq>
+		</course>
+		<course>
+			<name>MATH 381</name>
+			<prereq>
+				<class>MATH 125</class>
+			</prereq>
+			<postreq></postreq>
+			<coreq></coreq>
+		</course>
+	</math>
+	<english>
+		<course>
+			<name>ENGL 101</name>
+			<prereq>
+			</prereq>
+			<postreq>
+				<class>ENGL 279</class>
+			</postreq>
+			<coreq></coreq>
+		</course>
+		<course>
+			<name>ENGL 279</name>
+			<prereq>
+				<class>ENGL 101</class>
+			</prereq>
+			<postreq>
+				<class>ENGL 289</class>
+			</postreq>
+			<coreq></coreq>
+		</course>
+		<course>
+			<name>ENGL 289</name>
+			<prereq>
+				<class>ENGL 279</class>
+			</prereq>
+			<postreq></postreq>
+			<coreq></coreq>
+		</course>
+	</english>
+</prereqs>
